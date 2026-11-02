@@ -33,6 +33,4 @@ dock skill
 
 Browser login requires a compatible Dock server, an administrator account and API access. Credentials stay in the OS credential store; Linux needs an unlocked Secret Service. `DOCK_API_KEY` is also supported for automation. Never paste credentials into chat. Run `dock auth logout` to disconnect.
 
-If migrating from the unreleased Go prototype, log out with that executable before switching, then sign in again with the Node CLI.
-
 Preview releases are unsigned and may require API changes that are not deployed yet. Full workspace-editor coverage is in development. Agents need local shell access; hosts without it need a separate connector.
